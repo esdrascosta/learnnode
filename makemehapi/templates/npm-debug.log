@@ -1,0 +1,893 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'handlebars' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose install initial load of /home/esdras/projetos_node/learn-node/package.json
+5 warn package.json makemehapi@1.0.0 No description
+6 warn package.json makemehapi@1.0.0 No repository field.
+7 warn package.json makemehapi@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /home/esdras/projetos_node/learn-node/node_modules/hapi/package.json
+9 verbose installManyTop reading scoped package data from /home/esdras/projetos_node/learn-node/node_modules/inert/package.json
+10 verbose installManyTop reading scoped package data from /home/esdras/projetos_node/learn-node/node_modules/vision/package.json
+11 verbose readDependencies loading dependencies from /home/esdras/projetos_node/learn-node/package.json
+12 silly cache add args [ 'handlebars', null ]
+13 verbose cache add spec handlebars
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'handlebars',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'handlebars',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed handlebars@*
+16 verbose addNamed "*" is a valid semver range for handlebars
+17 silly addNameRange { name: 'handlebars', range: '*', hasData: false }
+18 silly mapToRegistry name handlebars
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/handlebars
+22 verbose addNameRange registry:https://registry.npmjs.org/handlebars not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/handlebars
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 23:51:18
+26 verbose request id cdfb0c3f04a5c7b9
+27 verbose etag "65U8UZOJXA15S2AZ34RYSSZ5Z"
+28 http request GET https://registry.npmjs.org/handlebars
+29 http 304 https://registry.npmjs.org/handlebars
+30 silly get cb [ 304,
+30 silly get   { date: 'Sun, 13 Sep 2015 02:51:19 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     'cache-control': 'max-age=60',
+30 silly get     etag: '"65U8UZOJXA15S2AZ34RYSSZ5Z"',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-iad2126-IAD',
+30 silly get     'x-cache': 'HIT',
+30 silly get     'x-cache-hits': '1',
+30 silly get     'x-timer': 'S1442112679.035259,VS0,VE91',
+30 silly get     vary: 'Accept' } ]
+31 verbose etag https://registry.npmjs.org/handlebars from cache
+32 verbose get saving handlebars to /home/esdras/.npm/registry.npmjs.org/handlebars/.cache.json
+33 silly addNameRange number 2 { name: 'handlebars', range: '*', hasData: true }
+34 silly addNameRange versions [ 'handlebars',
+34 silly addNameRange   [ '1.0.6',
+34 silly addNameRange     '1.0.6-2',
+34 silly addNameRange     '1.0.7',
+34 silly addNameRange     '1.0.8',
+34 silly addNameRange     '1.0.9',
+34 silly addNameRange     '1.0.10',
+34 silly addNameRange     '1.0.11',
+34 silly addNameRange     '1.0.12',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.1.1',
+34 silly addNameRange     '1.1.2',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.2.1',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '2.0.0-alpha.1',
+34 silly addNameRange     '2.0.0-alpha.2',
+34 silly addNameRange     '2.0.0-alpha.3',
+34 silly addNameRange     '2.0.0-alpha.4',
+34 silly addNameRange     '2.0.0-beta.1',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '3.0.0',
+34 silly addNameRange     '3.0.1',
+34 silly addNameRange     '3.0.2',
+34 silly addNameRange     '3.0.3',
+34 silly addNameRange     '4.0.0',
+34 silly addNameRange     '4.0.1',
+34 silly addNameRange     '4.0.2',
+34 silly addNameRange     '1.0.2-beta',
+34 silly addNameRange     '1.0.4-beta',
+34 silly addNameRange     '1.0.5-beta' ] ]
+35 silly addNamed handlebars@4.0.2
+36 verbose addNamed "4.0.2" is a plain semver version for handlebars
+37 silly mapToRegistry name handlebars
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/handlebars
+41 verbose addRemoteTarball https://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz not in flight; adding
+42 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz',
+42 verbose addRemoteTarball   '83c1200a969ba66285af6f938b0c5bb8845370e9' ]
+43 info retry fetch attempt 1 at 23:51:19
+44 info attempt registry request try #1 at 23:51:19
+45 http fetch GET https://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz
+46 http fetch 200 https://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz
+47 silly fetchAndShaCheck shasum 83c1200a969ba66285af6f938b0c5bb8845370e9
+48 verbose addTmpTarball /tmp/npm-4914-facd34b9/registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz not in flight; adding
+49 verbose addTmpTarball already have metadata; skipping unpack for handlebars@4.0.2
+50 silly cache afterAdd handlebars@4.0.2
+51 verbose afterAdd /home/esdras/.npm/handlebars/4.0.2/package/package.json not in flight; writing
+52 verbose afterAdd /home/esdras/.npm/handlebars/4.0.2/package/package.json written
+53 silly install resolved [ { name: 'handlebars',
+53 silly install resolved     barename: 'handlebars',
+53 silly install resolved     version: '4.0.2',
+53 silly install resolved     description: 'Handlebars provides the power necessary to let you build semantic templates effectively with no frustration',
+53 silly install resolved     homepage: 'http://www.handlebarsjs.com/',
+53 silly install resolved     keywords: [ 'handlebars', 'mustache', 'template', 'html' ],
+53 silly install resolved     repository:
+53 silly install resolved      { type: 'git',
+53 silly install resolved        url: 'git+https://github.com/wycats/handlebars.js.git' },
+53 silly install resolved     author: { name: 'Yehuda Katz' },
+53 silly install resolved     license: 'MIT',
+53 silly install resolved     engines: { node: '>=0.4.7' },
+53 silly install resolved     dependencies:
+53 silly install resolved      { async: '^1.4.0',
+53 silly install resolved        optimist: '^0.6.1',
+53 silly install resolved        'source-map': '^0.4.4',
+53 silly install resolved        'uglify-js': '~2.4' },
+53 silly install resolved     optionalDependencies: { 'uglify-js': '~2.4' },
+53 silly install resolved     devDependencies:
+53 silly install resolved      { 'aws-sdk': '^2.1.49',
+53 silly install resolved        'babel-loader': '^5.0.0',
+53 silly install resolved        'babel-runtime': '^5.1.10',
+53 silly install resolved        benchmark: '~1.0',
+53 silly install resolved        'dustjs-linkedin': '^2.0.2',
+53 silly install resolved        eco: '~1.1.0-rc-3',
+53 silly install resolved        grunt: '~0.4.1',
+53 silly install resolved        'grunt-babel': '^5.0.0',
+53 silly install resolved        'grunt-cli': '~0.1.10',
+53 silly install resolved        'grunt-contrib-clean': '0.x',
+53 silly install resolved        'grunt-contrib-concat': '0.x',
+53 silly install resolved        'grunt-contrib-connect': '0.x',
+53 silly install resolved        'grunt-contrib-copy': '0.x',
+53 silly install resolved        'grunt-contrib-requirejs': '0.x',
+53 silly install resolved        'grunt-contrib-uglify': '0.x',
+53 silly install resolved        'grunt-contrib-watch': '0.x',
+53 silly install resolved        'grunt-eslint': '^17.1.0',
+53 silly install resolved        'grunt-saucelabs': '8.x',
+53 silly install resolved        'grunt-webpack': '^1.0.8',
+53 silly install resolved        istanbul: '^0.3.0',
+53 silly install resolved        jison: '~0.3.0',
+53 silly install resolved        mocha: '~1.20.0',
+53 silly install resolved        'mock-stdin': '^0.3.0',
+53 silly install resolved        mustache: '^2.1.3',
+53 silly install resolved        semver: '^5.0.1',
+53 silly install resolved        underscore: '^1.5.1' },
+53 silly install resolved     main: 'lib/index.js',
+53 silly install resolved     bin: { handlebars: 'bin/handlebars' },
+53 silly install resolved     scripts: { test: 'grunt' },
+53 silly install resolved     jspm:
+53 silly install resolved      { main: 'handlebars',
+53 silly install resolved        directories: [Object],
+53 silly install resolved        buildConfig: [Object] },
+53 silly install resolved     gitHead: 'a5a3ab01d3659b996234e3fa5a4a32350a145096',
+53 silly install resolved     bugs: { url: 'https://github.com/wycats/handlebars.js/issues' },
+53 silly install resolved     _id: 'handlebars@4.0.2',
+53 silly install resolved     _shasum: '83c1200a969ba66285af6f938b0c5bb8845370e9',
+53 silly install resolved     _from: 'handlebars@*',
+53 silly install resolved     _npmVersion: '2.11.3',
+53 silly install resolved     _nodeVersion: '0.12.7',
+53 silly install resolved     _npmUser: { name: 'kpdecker', email: 'kpdecker@gmail.com' },
+53 silly install resolved     maintainers: [ [Object] ],
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: '83c1200a969ba66285af6f938b0c5bb8845370e9',
+53 silly install resolved        tarball: 'http://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz' },
+53 silly install resolved     directories: {},
+53 silly install resolved     _resolved: 'https://registry.npmjs.org/handlebars/-/handlebars-4.0.2.tgz' } ]
+54 info install handlebars@4.0.2 into /home/esdras/projetos_node/learn-node
+55 info installOne handlebars@4.0.2
+56 verbose installOne of handlebars to /home/esdras/projetos_node/learn-node not in flight; installing
+57 verbose lock using /home/esdras/.npm/_locks/handlebars-5d771463333a1fbc.lock for /home/esdras/projetos_node/learn-node/node_modules/handlebars
+58 silly install write writing handlebars 4.0.2 to /home/esdras/projetos_node/learn-node/node_modules/handlebars
+59 verbose unbuild node_modules/handlebars
+60 silly gentlyRm /home/esdras/projetos_node/learn-node/node_modules/handlebars is being purged from base /home/esdras/projetos_node/learn-node
+61 verbose gentlyRm don't care about contents; nuking /home/esdras/projetos_node/learn-node/node_modules/handlebars
+62 verbose tar unpack /home/esdras/.npm/handlebars/4.0.2/package.tgz
+63 verbose tar unpacking to /home/esdras/projetos_node/learn-node/node_modules/handlebars
+64 silly gentlyRm /home/esdras/projetos_node/learn-node/node_modules/handlebars is being purged
+65 verbose gentlyRm don't care about contents; nuking /home/esdras/projetos_node/learn-node/node_modules/handlebars
+66 silly gunzTarPerm modes [ '775', '664' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+71 silly gunzTarPerm extractEntry LICENSE
+72 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+73 silly gunzTarPerm extractEntry runtime.js
+74 silly gunzTarPerm modified mode [ 'runtime.js', 420, 436 ]
+75 silly gunzTarPerm extractEntry CONTRIBUTING.md
+76 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 436 ]
+77 silly gunzTarPerm extractEntry FAQ.md
+78 silly gunzTarPerm modified mode [ 'FAQ.md', 420, 436 ]
+79 silly gunzTarPerm extractEntry .gitmodules
+80 silly gunzTarPerm modified mode [ '.gitmodules', 420, 436 ]
+81 silly gunzTarPerm extractEntry .istanbul.yml
+82 silly gunzTarPerm modified mode [ '.istanbul.yml', 420, 436 ]
+83 silly gunzTarPerm extractEntry README.markdown
+84 silly gunzTarPerm modified mode [ 'README.markdown', 420, 436 ]
+85 silly gunzTarPerm extractEntry bin/handlebars
+86 silly gunzTarPerm modified mode [ 'bin/handlebars', 493, 509 ]
+87 silly gunzTarPerm extractEntry dist/handlebars.runtime.min.js
+88 silly gunzTarPerm modified mode [ 'dist/handlebars.runtime.min.js', 420, 436 ]
+89 silly gunzTarPerm extractEntry dist/handlebars.runtime.js
+90 silly gunzTarPerm modified mode [ 'dist/handlebars.runtime.js', 420, 436 ]
+91 silly gunzTarPerm extractEntry dist/handlebars.runtime.amd.min.js
+92 silly gunzTarPerm modified mode [ 'dist/handlebars.runtime.amd.min.js', 420, 436 ]
+93 silly gunzTarPerm extractEntry dist/handlebars.amd.js
+94 silly gunzTarPerm modified mode [ 'dist/handlebars.amd.js', 420, 436 ]
+95 silly gunzTarPerm extractEntry dist/handlebars.amd.min.js
+96 silly gunzTarPerm modified mode [ 'dist/handlebars.amd.min.js', 420, 436 ]
+97 silly gunzTarPerm extractEntry dist/handlebars.runtime.amd.js
+98 silly gunzTarPerm modified mode [ 'dist/handlebars.runtime.amd.js', 420, 436 ]
+99 silly gunzTarPerm extractEntry dist/handlebars.min.js
+100 silly gunzTarPerm modified mode [ 'dist/handlebars.min.js', 420, 436 ]
+101 silly gunzTarPerm extractEntry dist/handlebars.js
+102 silly gunzTarPerm modified mode [ 'dist/handlebars.js', 420, 436 ]
+103 silly gunzTarPerm extractEntry dist/cjs/handlebars.js
+104 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars.js', 420, 436 ]
+105 silly gunzTarPerm extractEntry dist/cjs/handlebars.runtime.js
+106 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars.runtime.js', 420, 436 ]
+107 silly gunzTarPerm extractEntry dist/cjs/precompiler.js
+108 silly gunzTarPerm modified mode [ 'dist/cjs/precompiler.js', 420, 436 ]
+109 silly gunzTarPerm extractEntry dist/cjs/handlebars/base.js
+110 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/base.js', 420, 436 ]
+111 silly gunzTarPerm extractEntry dist/cjs/handlebars/safe-string.js
+112 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/safe-string.js', 420, 436 ]
+113 silly gunzTarPerm extractEntry dist/cjs/handlebars/decorators.js
+114 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/decorators.js', 420, 436 ]
+115 silly gunzTarPerm extractEntry dist/cjs/handlebars/exception.js
+116 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/exception.js', 420, 436 ]
+117 silly gunzTarPerm extractEntry dist/cjs/handlebars/runtime.js
+118 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/runtime.js', 420, 436 ]
+119 silly gunzTarPerm extractEntry dist/cjs/handlebars/no-conflict.js
+120 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/no-conflict.js', 420, 436 ]
+121 silly gunzTarPerm extractEntry dist/cjs/handlebars/logger.js
+122 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/logger.js', 420, 436 ]
+123 silly gunzTarPerm extractEntry dist/cjs/handlebars/utils.js
+124 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/utils.js', 420, 436 ]
+125 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers.js
+126 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers.js', 420, 436 ]
+127 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/ast.js
+128 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/ast.js', 420, 436 ]
+129 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/base.js
+130 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/base.js', 420, 436 ]
+131 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/code-gen.js
+132 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/code-gen.js', 420, 436 ]
+133 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/compiler.js
+134 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/compiler.js', 420, 436 ]
+135 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/helpers.js
+136 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/helpers.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/javascript-compiler.js
+138 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/javascript-compiler.js',
+138 silly gunzTarPerm   420,
+138 silly gunzTarPerm   436 ]
+139 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/parser.js
+140 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/parser.js', 420, 436 ]
+141 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/printer.js
+142 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/printer.js', 420, 436 ]
+143 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/visitor.js
+144 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/visitor.js', 420, 436 ]
+145 silly gunzTarPerm extractEntry dist/cjs/handlebars/compiler/whitespace-control.js
+146 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/compiler/whitespace-control.js',
+146 silly gunzTarPerm   420,
+146 silly gunzTarPerm   436 ]
+147 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/block-helper-missing.js
+148 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/block-helper-missing.js',
+148 silly gunzTarPerm   420,
+148 silly gunzTarPerm   436 ]
+149 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/each.js
+150 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/each.js', 420, 436 ]
+151 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/helper-missing.js
+152 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/helper-missing.js', 420, 436 ]
+153 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/if.js
+154 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/if.js', 420, 436 ]
+155 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/log.js
+156 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/log.js', 420, 436 ]
+157 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/lookup.js
+158 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/lookup.js', 420, 436 ]
+159 silly gunzTarPerm extractEntry dist/cjs/handlebars/helpers/with.js
+160 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/helpers/with.js', 420, 436 ]
+161 silly gunzTarPerm extractEntry dist/cjs/handlebars/decorators/inline.js
+162 silly gunzTarPerm modified mode [ 'dist/cjs/handlebars/decorators/inline.js', 420, 436 ]
+163 silly gunzTarPerm extractEntry dist/amd/handlebars.js
+164 silly gunzTarPerm modified mode [ 'dist/amd/handlebars.js', 420, 436 ]
+165 silly gunzTarPerm extractEntry dist/amd/handlebars.runtime.js
+166 silly gunzTarPerm modified mode [ 'dist/amd/handlebars.runtime.js', 420, 436 ]
+167 silly gunzTarPerm extractEntry dist/amd/precompiler.js
+168 silly gunzTarPerm modified mode [ 'dist/amd/precompiler.js', 420, 436 ]
+169 silly gunzTarPerm extractEntry dist/amd/handlebars/base.js
+170 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/base.js', 420, 436 ]
+171 silly gunzTarPerm extractEntry dist/amd/handlebars/safe-string.js
+172 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/safe-string.js', 420, 436 ]
+173 silly gunzTarPerm extractEntry dist/amd/handlebars/decorators.js
+174 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/decorators.js', 420, 436 ]
+175 silly gunzTarPerm extractEntry dist/amd/handlebars/exception.js
+176 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/exception.js', 420, 436 ]
+177 silly gunzTarPerm extractEntry dist/amd/handlebars/runtime.js
+178 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/runtime.js', 420, 436 ]
+179 silly gunzTarPerm extractEntry dist/amd/handlebars/no-conflict.js
+180 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/no-conflict.js', 420, 436 ]
+181 silly gunzTarPerm extractEntry dist/amd/handlebars/logger.js
+182 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/logger.js', 420, 436 ]
+183 silly gunzTarPerm extractEntry dist/amd/handlebars/utils.js
+184 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/utils.js', 420, 436 ]
+185 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers.js
+186 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers.js', 420, 436 ]
+187 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/ast.js
+188 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/ast.js', 420, 436 ]
+189 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/base.js
+190 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/base.js', 420, 436 ]
+191 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/code-gen.js
+192 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/code-gen.js', 420, 436 ]
+193 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/compiler.js
+194 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/compiler.js', 420, 436 ]
+195 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/helpers.js
+196 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/helpers.js', 420, 436 ]
+197 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/javascript-compiler.js
+198 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/javascript-compiler.js',
+198 silly gunzTarPerm   420,
+198 silly gunzTarPerm   436 ]
+199 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/parser.js
+200 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/parser.js', 420, 436 ]
+201 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/printer.js
+202 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/printer.js', 420, 436 ]
+203 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/visitor.js
+204 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/visitor.js', 420, 436 ]
+205 silly gunzTarPerm extractEntry dist/amd/handlebars/compiler/whitespace-control.js
+206 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/compiler/whitespace-control.js',
+206 silly gunzTarPerm   420,
+206 silly gunzTarPerm   436 ]
+207 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/block-helper-missing.js
+208 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/block-helper-missing.js',
+208 silly gunzTarPerm   420,
+208 silly gunzTarPerm   436 ]
+209 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/each.js
+210 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/each.js', 420, 436 ]
+211 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/helper-missing.js
+212 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/helper-missing.js', 420, 436 ]
+213 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/if.js
+214 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/if.js', 420, 436 ]
+215 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/log.js
+216 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/log.js', 420, 436 ]
+217 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/lookup.js
+218 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/lookup.js', 420, 436 ]
+219 silly gunzTarPerm extractEntry dist/amd/handlebars/helpers/with.js
+220 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/helpers/with.js', 420, 436 ]
+221 silly gunzTarPerm extractEntry dist/amd/handlebars/decorators/inline.js
+222 silly gunzTarPerm modified mode [ 'dist/amd/handlebars/decorators/inline.js', 420, 436 ]
+223 silly gunzTarPerm extractEntry docs/compiler-api.md
+224 silly gunzTarPerm modified mode [ 'docs/compiler-api.md', 420, 436 ]
+225 silly gunzTarPerm extractEntry docs/decorators-api.md
+226 silly gunzTarPerm modified mode [ 'docs/decorators-api.md', 420, 436 ]
+227 silly gunzTarPerm extractEntry lib/handlebars.js
+228 silly gunzTarPerm modified mode [ 'lib/handlebars.js', 420, 436 ]
+229 silly gunzTarPerm extractEntry lib/handlebars.runtime.js
+230 silly gunzTarPerm modified mode [ 'lib/handlebars.runtime.js', 420, 436 ]
+231 silly gunzTarPerm extractEntry lib/index.js
+232 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+233 silly gunzTarPerm extractEntry lib/precompiler.js
+234 silly gunzTarPerm modified mode [ 'lib/precompiler.js', 420, 436 ]
+235 silly gunzTarPerm extractEntry lib/handlebars/base.js
+236 silly gunzTarPerm modified mode [ 'lib/handlebars/base.js', 420, 436 ]
+237 silly gunzTarPerm extractEntry lib/handlebars/safe-string.js
+238 silly gunzTarPerm modified mode [ 'lib/handlebars/safe-string.js', 420, 436 ]
+239 silly gunzTarPerm extractEntry lib/handlebars/decorators.js
+240 silly gunzTarPerm modified mode [ 'lib/handlebars/decorators.js', 420, 436 ]
+241 silly gunzTarPerm extractEntry lib/handlebars/exception.js
+242 silly gunzTarPerm modified mode [ 'lib/handlebars/exception.js', 420, 436 ]
+243 silly gunzTarPerm extractEntry lib/handlebars/runtime.js
+244 silly gunzTarPerm modified mode [ 'lib/handlebars/runtime.js', 420, 436 ]
+245 silly gunzTarPerm extractEntry lib/handlebars/no-conflict.js
+246 silly gunzTarPerm modified mode [ 'lib/handlebars/no-conflict.js', 420, 436 ]
+247 silly gunzTarPerm extractEntry lib/handlebars/logger.js
+248 silly gunzTarPerm modified mode [ 'lib/handlebars/logger.js', 420, 436 ]
+249 silly gunzTarPerm extractEntry lib/handlebars/utils.js
+250 silly gunzTarPerm modified mode [ 'lib/handlebars/utils.js', 420, 436 ]
+251 silly gunzTarPerm extractEntry lib/handlebars/helpers.js
+252 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers.js', 420, 436 ]
+253 silly gunzTarPerm extractEntry lib/handlebars/compiler/ast.js
+254 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/ast.js', 420, 436 ]
+255 silly gunzTarPerm extractEntry lib/handlebars/compiler/base.js
+256 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/base.js', 420, 436 ]
+257 silly gunzTarPerm extractEntry lib/handlebars/compiler/code-gen.js
+258 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/code-gen.js', 420, 436 ]
+259 silly gunzTarPerm extractEntry lib/handlebars/compiler/compiler.js
+260 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/compiler.js', 420, 436 ]
+261 silly gunzTarPerm extractEntry lib/handlebars/compiler/helpers.js
+262 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/helpers.js', 420, 436 ]
+263 silly gunzTarPerm extractEntry lib/handlebars/compiler/javascript-compiler.js
+264 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/javascript-compiler.js', 420, 436 ]
+265 silly gunzTarPerm extractEntry lib/handlebars/compiler/parser.js
+266 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/parser.js', 420, 436 ]
+267 silly gunzTarPerm extractEntry lib/handlebars/compiler/printer.js
+268 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/printer.js', 420, 436 ]
+269 silly gunzTarPerm extractEntry lib/handlebars/compiler/visitor.js
+270 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/visitor.js', 420, 436 ]
+271 silly gunzTarPerm extractEntry lib/handlebars/compiler/whitespace-control.js
+272 silly gunzTarPerm modified mode [ 'lib/handlebars/compiler/whitespace-control.js', 420, 436 ]
+273 silly gunzTarPerm extractEntry lib/handlebars/helpers/block-helper-missing.js
+274 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/block-helper-missing.js', 420, 436 ]
+275 silly gunzTarPerm extractEntry lib/handlebars/helpers/each.js
+276 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/each.js', 420, 436 ]
+277 silly gunzTarPerm extractEntry lib/handlebars/helpers/helper-missing.js
+278 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/helper-missing.js', 420, 436 ]
+279 silly gunzTarPerm extractEntry lib/handlebars/helpers/if.js
+280 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/if.js', 420, 436 ]
+281 silly gunzTarPerm extractEntry lib/handlebars/helpers/log.js
+282 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/log.js', 420, 436 ]
+283 silly gunzTarPerm extractEntry lib/handlebars/helpers/lookup.js
+284 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/lookup.js', 420, 436 ]
+285 silly gunzTarPerm extractEntry lib/handlebars/helpers/with.js
+286 silly gunzTarPerm modified mode [ 'lib/handlebars/helpers/with.js', 420, 436 ]
+287 silly gunzTarPerm extractEntry lib/handlebars/decorators/inline.js
+288 silly gunzTarPerm modified mode [ 'lib/handlebars/decorators/inline.js', 420, 436 ]
+289 silly gunzTarPerm extractEntry print-script
+290 silly gunzTarPerm modified mode [ 'print-script', 493, 509 ]
+291 silly gunzTarPerm extractEntry release-notes.md
+292 silly gunzTarPerm modified mode [ 'release-notes.md', 420, 436 ]
+293 verbose write writing to /home/esdras/projetos_node/learn-node/node_modules/handlebars/package.json
+294 info preinstall handlebars@4.0.2
+295 verbose readDependencies loading dependencies from /home/esdras/projetos_node/learn-node/node_modules/handlebars/package.json
+296 silly prepareForInstallMany adding async@^1.4.0 from handlebars dependencies
+297 silly prepareForInstallMany adding optimist@^0.6.1 from handlebars dependencies
+298 silly prepareForInstallMany adding source-map@^0.4.4 from handlebars dependencies
+299 silly prepareForInstallMany adding uglify-js@~2.4 from handlebars dependencies
+300 verbose readDependencies loading dependencies from /home/esdras/projetos_node/learn-node/node_modules/handlebars/package.json
+301 silly cache add args [ 'optimist@^0.6.1', null ]
+302 verbose cache add spec optimist@^0.6.1
+303 silly cache add parsed spec Result {
+303 silly cache add   raw: 'optimist@^0.6.1',
+303 silly cache add   scope: null,
+303 silly cache add   name: 'optimist',
+303 silly cache add   rawSpec: '^0.6.1',
+303 silly cache add   spec: '>=0.6.1 <0.7.0',
+303 silly cache add   type: 'range' }
+304 silly addNamed optimist@>=0.6.1 <0.7.0
+305 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for optimist
+306 silly addNameRange { name: 'optimist', range: '>=0.6.1 <0.7.0', hasData: false }
+307 silly mapToRegistry name optimist
+308 silly mapToRegistry using default registry
+309 silly mapToRegistry registry https://registry.npmjs.org/
+310 silly mapToRegistry uri https://registry.npmjs.org/optimist
+311 verbose addNameRange registry:https://registry.npmjs.org/optimist not in flight; fetching
+312 silly cache add args [ 'source-map@^0.4.4', null ]
+313 verbose cache add spec source-map@^0.4.4
+314 silly cache add parsed spec Result {
+314 silly cache add   raw: 'source-map@^0.4.4',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'source-map',
+314 silly cache add   rawSpec: '^0.4.4',
+314 silly cache add   spec: '>=0.4.4 <0.5.0',
+314 silly cache add   type: 'range' }
+315 silly addNamed source-map@>=0.4.4 <0.5.0
+316 verbose addNamed ">=0.4.4 <0.5.0" is a valid semver range for source-map
+317 silly addNameRange { name: 'source-map', range: '>=0.4.4 <0.5.0', hasData: false }
+318 silly mapToRegistry name source-map
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npmjs.org/
+321 silly mapToRegistry uri https://registry.npmjs.org/source-map
+322 verbose addNameRange registry:https://registry.npmjs.org/source-map not in flight; fetching
+323 silly cache add args [ 'uglify-js@~2.4', null ]
+324 verbose cache add spec uglify-js@~2.4
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'uglify-js@~2.4',
+325 silly cache add   scope: null,
+325 silly cache add   name: 'uglify-js',
+325 silly cache add   rawSpec: '~2.4',
+325 silly cache add   spec: '>=2.4.0 <2.5.0',
+325 silly cache add   type: 'range' }
+326 silly addNamed uglify-js@>=2.4.0 <2.5.0
+327 verbose addNamed ">=2.4.0 <2.5.0" is a valid semver range for uglify-js
+328 silly addNameRange { name: 'uglify-js', range: '>=2.4.0 <2.5.0', hasData: false }
+329 silly mapToRegistry name uglify-js
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+333 verbose addNameRange registry:https://registry.npmjs.org/uglify-js not in flight; fetching
+334 silly cache add args [ 'async@^1.4.0', null ]
+335 verbose cache add spec async@^1.4.0
+336 silly cache add parsed spec Result {
+336 silly cache add   raw: 'async@^1.4.0',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'async',
+336 silly cache add   rawSpec: '^1.4.0',
+336 silly cache add   spec: '>=1.4.0 <2.0.0',
+336 silly cache add   type: 'range' }
+337 silly addNamed async@>=1.4.0 <2.0.0
+338 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for async
+339 silly addNameRange { name: 'async', range: '>=1.4.0 <2.0.0', hasData: false }
+340 silly mapToRegistry name async
+341 silly mapToRegistry using default registry
+342 silly mapToRegistry registry https://registry.npmjs.org/
+343 silly mapToRegistry uri https://registry.npmjs.org/async
+344 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+345 verbose request uri https://registry.npmjs.org/source-map
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 23:51:22
+348 verbose etag "5XRQG89JR08HIOSSPBHGTGQEE"
+349 http request GET https://registry.npmjs.org/source-map
+350 verbose request uri https://registry.npmjs.org/optimist
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 23:51:22
+353 verbose etag "B9L5GWG7RAPCMY3VF7ZJ7H6ET"
+354 http request GET https://registry.npmjs.org/optimist
+355 verbose request uri https://registry.npmjs.org/uglify-js
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 23:51:22
+358 verbose etag "AHJX5MQZJ5IF6CKGKWOBFZ8TT"
+359 http request GET https://registry.npmjs.org/uglify-js
+360 verbose request uri https://registry.npmjs.org/async
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 23:51:22
+363 verbose etag "BVDLYCB4IZV4YWOW80VMAD3VG"
+364 http request GET https://registry.npmjs.org/async
+365 http 304 https://registry.npmjs.org/source-map
+366 silly get cb [ 304,
+366 silly get   { date: 'Sun, 13 Sep 2015 02:51:22 GMT',
+366 silly get     via: '1.1 varnish',
+366 silly get     'cache-control': 'max-age=60',
+366 silly get     etag: '"5XRQG89JR08HIOSSPBHGTGQEE"',
+366 silly get     age: '59',
+366 silly get     connection: 'keep-alive',
+366 silly get     'x-served-by': 'cache-iad2131-IAD',
+366 silly get     'x-cache': 'HIT',
+366 silly get     'x-cache-hits': '2',
+366 silly get     'x-timer': 'S1442112682.653181,VS0,VE0',
+366 silly get     vary: 'Accept' } ]
+367 verbose etag https://registry.npmjs.org/source-map from cache
+368 verbose get saving source-map to /home/esdras/.npm/registry.npmjs.org/source-map/.cache.json
+369 silly addNameRange number 2 { name: 'source-map', range: '>=0.4.4 <0.5.0', hasData: true }
+370 silly addNameRange versions [ 'source-map',
+370 silly addNameRange   [ '0.0.0',
+370 silly addNameRange     '0.1.0',
+370 silly addNameRange     '0.1.1',
+370 silly addNameRange     '0.1.2',
+370 silly addNameRange     '0.1.3',
+370 silly addNameRange     '0.1.4',
+370 silly addNameRange     '0.1.5',
+370 silly addNameRange     '0.1.6',
+370 silly addNameRange     '0.1.7',
+370 silly addNameRange     '0.1.8',
+370 silly addNameRange     '0.1.9',
+370 silly addNameRange     '0.1.10',
+370 silly addNameRange     '0.1.11',
+370 silly addNameRange     '0.1.12',
+370 silly addNameRange     '0.1.13',
+370 silly addNameRange     '0.1.14',
+370 silly addNameRange     '0.1.15',
+370 silly addNameRange     '0.1.16',
+370 silly addNameRange     '0.1.17',
+370 silly addNameRange     '0.1.18',
+370 silly addNameRange     '0.1.19',
+370 silly addNameRange     '0.1.20',
+370 silly addNameRange     '0.1.21',
+370 silly addNameRange     '0.1.22',
+370 silly addNameRange     '0.1.23',
+370 silly addNameRange     '0.1.24',
+370 silly addNameRange     '0.1.25',
+370 silly addNameRange     '0.1.26',
+370 silly addNameRange     '0.1.27',
+370 silly addNameRange     '0.1.28',
+370 silly addNameRange     '0.1.29',
+370 silly addNameRange     '0.1.30',
+370 silly addNameRange     '0.1.31',
+370 silly addNameRange     '0.1.32',
+370 silly addNameRange     '0.1.33',
+370 silly addNameRange     '0.1.34',
+370 silly addNameRange     '0.1.35',
+370 silly addNameRange     '0.1.36',
+370 silly addNameRange     '0.1.37',
+370 silly addNameRange     '0.1.38',
+370 silly addNameRange     '0.1.39',
+370 silly addNameRange     '0.1.40',
+370 silly addNameRange     '0.1.41',
+370 silly addNameRange     '0.1.42',
+370 silly addNameRange     '0.1.43',
+370 silly addNameRange     '0.2.0',
+370 silly addNameRange     '0.3.0',
+370 silly addNameRange     '0.4.0',
+370 silly addNameRange     '0.4.1',
+370 silly addNameRange     '0.4.2',
+370 silly addNameRange     '0.4.3',
+370 silly addNameRange     '0.4.4',
+370 silly addNameRange     '0.5.0' ] ]
+371 silly addNamed source-map@0.4.4
+372 verbose addNamed "0.4.4" is a plain semver version for source-map
+373 silly mapToRegistry name source-map
+374 silly mapToRegistry using default registry
+375 silly mapToRegistry registry https://registry.npmjs.org/
+376 silly mapToRegistry uri https://registry.npmjs.org/source-map
+377 verbose addRemoteTarball https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz not in flight; adding
+378 verbose addRemoteTarball [ 'https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz',
+378 verbose addRemoteTarball   'eba4f5da9c0dc999de68032d8b4f76173652036b' ]
+379 http 304 https://registry.npmjs.org/uglify-js
+380 silly get cb [ 304,
+380 silly get   { date: 'Sun, 13 Sep 2015 02:51:22 GMT',
+380 silly get     via: '1.1 varnish',
+380 silly get     'cache-control': 'max-age=60',
+380 silly get     etag: '"AHJX5MQZJ5IF6CKGKWOBFZ8TT"',
+380 silly get     age: '12',
+380 silly get     connection: 'keep-alive',
+380 silly get     'x-served-by': 'cache-atl6229-ATL',
+380 silly get     'x-cache': 'HIT',
+380 silly get     'x-cache-hits': '1',
+380 silly get     'x-timer': 'S1442112682.678303,VS0,VE1',
+380 silly get     vary: 'Accept' } ]
+381 verbose etag https://registry.npmjs.org/uglify-js from cache
+382 verbose get saving uglify-js to /home/esdras/.npm/registry.npmjs.org/uglify-js/.cache.json
+383 info retry fetch attempt 1 at 23:51:22
+384 info attempt registry request try #1 at 23:51:22
+385 http fetch GET https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz
+386 silly addNameRange number 2 { name: 'uglify-js', range: '>=2.4.0 <2.5.0', hasData: true }
+387 silly addNameRange versions [ 'uglify-js',
+387 silly addNameRange   [ '0.0.1',
+387 silly addNameRange     '0.0.2',
+387 silly addNameRange     '0.0.3',
+387 silly addNameRange     '0.0.4',
+387 silly addNameRange     '0.0.5',
+387 silly addNameRange     '1.0.1',
+387 silly addNameRange     '1.0.2',
+387 silly addNameRange     '1.0.3',
+387 silly addNameRange     '1.0.4',
+387 silly addNameRange     '1.0.5',
+387 silly addNameRange     '1.0.6',
+387 silly addNameRange     '1.0.7',
+387 silly addNameRange     '1.1.0',
+387 silly addNameRange     '1.1.1',
+387 silly addNameRange     '1.2.0',
+387 silly addNameRange     '1.2.1',
+387 silly addNameRange     '1.2.2',
+387 silly addNameRange     '1.2.3',
+387 silly addNameRange     '1.2.4',
+387 silly addNameRange     '1.2.5',
+387 silly addNameRange     '1.2.6',
+387 silly addNameRange     '1.3.0',
+387 silly addNameRange     '1.3.1',
+387 silly addNameRange     '1.3.2',
+387 silly addNameRange     '1.3.3',
+387 silly addNameRange     '1.3.4',
+387 silly addNameRange     '2.2.0',
+387 silly addNameRange     '2.2.1',
+387 silly addNameRange     '2.2.2',
+387 silly addNameRange     '2.2.3',
+387 silly addNameRange     '2.2.4',
+387 silly addNameRange     '2.2.5',
+387 silly addNameRange     '2.3.0',
+387 silly addNameRange     '2.3.1',
+387 silly addNameRange     '2.3.2',
+387 silly addNameRange     '2.3.3',
+387 silly addNameRange     '2.3.4',
+387 silly addNameRange     '2.3.5',
+387 silly addNameRange     '2.3.6',
+387 silly addNameRange     '1.3.5',
+387 silly addNameRange     '2.4.0',
+387 silly addNameRange     '2.4.1',
+387 silly addNameRange     '2.4.2',
+387 silly addNameRange     '2.4.3',
+387 silly addNameRange     '2.4.4',
+387 silly addNameRange     '2.4.5',
+387 silly addNameRange     '2.4.6',
+387 silly addNameRange     '2.4.7',
+387 silly addNameRange     '2.4.8',
+387 silly addNameRange     '2.4.9',
+387 silly addNameRange     '2.4.10',
+387 silly addNameRange     '2.4.11',
+387 silly addNameRange     '2.4.12',
+387 silly addNameRange     '2.4.13',
+387 silly addNameRange     '2.4.14',
+387 silly addNameRange     '2.4.15',
+387 silly addNameRange     '2.4.16',
+387 silly addNameRange     '2.4.17',
+387 silly addNameRange     '2.4.18',
+387 silly addNameRange     '2.4.19',
+387 silly addNameRange     '2.4.20',
+387 silly addNameRange     '2.4.21',
+387 silly addNameRange     '2.4.22',
+387 silly addNameRange     '2.4.23',
+387 silly addNameRange     '2.4.24' ] ]
+388 silly addNamed uglify-js@2.4.24
+389 verbose addNamed "2.4.24" is a plain semver version for uglify-js
+390 silly mapToRegistry name uglify-js
+391 silly mapToRegistry using default registry
+392 silly mapToRegistry registry https://registry.npmjs.org/
+393 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+394 verbose addRemoteTarball https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz not in flight; adding
+395 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz',
+395 verbose addRemoteTarball   'fad5755c1e1577658bb06ff9ab6e548c95bebd6e' ]
+396 info retry fetch attempt 1 at 23:51:22
+397 info attempt registry request try #1 at 23:51:22
+398 http fetch GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz
+399 http 304 https://registry.npmjs.org/async
+400 silly get cb [ 304,
+400 silly get   { date: 'Sun, 13 Sep 2015 02:51:22 GMT',
+400 silly get     via: '1.1 varnish',
+400 silly get     'cache-control': 'max-age=60',
+400 silly get     etag: '"BVDLYCB4IZV4YWOW80VMAD3VG"',
+400 silly get     age: '51',
+400 silly get     connection: 'keep-alive',
+400 silly get     'x-served-by': 'cache-iad2146-IAD',
+400 silly get     'x-cache': 'HIT',
+400 silly get     'x-cache-hits': '2',
+400 silly get     'x-timer': 'S1442112682.845643,VS0,VE0',
+400 silly get     vary: 'Accept' } ]
+401 verbose etag https://registry.npmjs.org/async from cache
+402 verbose get saving async to /home/esdras/.npm/registry.npmjs.org/async/.cache.json
+403 silly addNameRange number 2 { name: 'async', range: '>=1.4.0 <2.0.0', hasData: true }
+404 silly addNameRange versions [ 'async',
+404 silly addNameRange   [ '0.1.0',
+404 silly addNameRange     '0.1.1',
+404 silly addNameRange     '0.1.2',
+404 silly addNameRange     '0.1.3',
+404 silly addNameRange     '0.1.4',
+404 silly addNameRange     '0.1.5',
+404 silly addNameRange     '0.1.6',
+404 silly addNameRange     '0.1.7',
+404 silly addNameRange     '0.1.8',
+404 silly addNameRange     '0.1.9',
+404 silly addNameRange     '0.1.10',
+404 silly addNameRange     '0.1.11',
+404 silly addNameRange     '0.1.12',
+404 silly addNameRange     '0.1.13',
+404 silly addNameRange     '0.1.14',
+404 silly addNameRange     '0.1.15',
+404 silly addNameRange     '0.1.16',
+404 silly addNameRange     '0.1.17',
+404 silly addNameRange     '0.1.18',
+404 silly addNameRange     '0.1.19',
+404 silly addNameRange     '0.1.20',
+404 silly addNameRange     '0.1.21',
+404 silly addNameRange     '0.1.22',
+404 silly addNameRange     '0.2.0',
+404 silly addNameRange     '0.2.1',
+404 silly addNameRange     '0.2.2',
+404 silly addNameRange     '0.2.3',
+404 silly addNameRange     '0.2.4',
+404 silly addNameRange     '0.2.5',
+404 silly addNameRange     '0.2.6',
+404 silly addNameRange     '0.2.7',
+404 silly addNameRange     '0.2.8',
+404 silly addNameRange     '0.2.9',
+404 silly addNameRange     '0.2.10',
+404 silly addNameRange     '0.3.0',
+404 silly addNameRange     '0.4.0',
+404 silly addNameRange     '0.4.1',
+404 silly addNameRange     '0.5.0',
+404 silly addNameRange     '0.6.0',
+404 silly addNameRange     '0.6.1',
+404 silly addNameRange     '0.6.2',
+404 silly addNameRange     '0.7.0',
+404 silly addNameRange     '0.8.0',
+404 silly addNameRange     '0.9.0',
+404 silly addNameRange     '0.9.2',
+404 silly addNameRange     '1.0.0',
+404 silly addNameRange     '1.1.0',
+404 silly addNameRange     '1.2.0',
+404 silly addNameRange     '1.1.1',
+404 silly addNameRange     '1.2.1',
+404 silly addNameRange     '1.3.0',
+404 silly addNameRange     '1.4.0',
+404 silly addNameRange     '1.4.1',
+404 silly addNameRange     '1.4.2' ] ]
+405 silly addNamed async@1.4.2
+406 verbose addNamed "1.4.2" is a plain semver version for async
+407 silly mapToRegistry name async
+408 silly mapToRegistry using default registry
+409 silly mapToRegistry registry https://registry.npmjs.org/
+410 silly mapToRegistry uri https://registry.npmjs.org/async
+411 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-1.4.2.tgz not in flight; adding
+412 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-1.4.2.tgz',
+412 verbose addRemoteTarball   '6c9edcb11ced4f0dd2f2d40db0d49a109c088aab' ]
+413 info retry fetch attempt 1 at 23:51:22
+414 info attempt registry request try #1 at 23:51:22
+415 http fetch GET https://registry.npmjs.org/async/-/async-1.4.2.tgz
+416 http 304 https://registry.npmjs.org/optimist
+417 silly get cb [ 304,
+417 silly get   { date: 'Sun, 13 Sep 2015 02:51:22 GMT',
+417 silly get     via: '1.1 varnish',
+417 silly get     'cache-control': 'max-age=60',
+417 silly get     etag: '"B9L5GWG7RAPCMY3VF7ZJ7H6ET"',
+417 silly get     age: '35',
+417 silly get     connection: 'keep-alive',
+417 silly get     'x-served-by': 'cache-atl6222-ATL',
+417 silly get     'x-cache': 'HIT',
+417 silly get     'x-cache-hits': '3',
+417 silly get     'x-timer': 'S1442112682.620437,VS0,VE0',
+417 silly get     vary: 'Accept' } ]
+418 verbose etag https://registry.npmjs.org/optimist from cache
+419 verbose get saving optimist to /home/esdras/.npm/registry.npmjs.org/optimist/.cache.json
+420 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.1 <0.7.0', hasData: true }
+421 silly addNameRange versions [ 'optimist',
+421 silly addNameRange   [ '0.0.1',
+421 silly addNameRange     '0.0.2',
+421 silly addNameRange     '0.0.4',
+421 silly addNameRange     '0.0.5',
+421 silly addNameRange     '0.0.6',
+421 silly addNameRange     '0.0.7',
+421 silly addNameRange     '0.1.0',
+421 silly addNameRange     '0.1.1',
+421 silly addNameRange     '0.1.2',
+421 silly addNameRange     '0.1.3',
+421 silly addNameRange     '0.1.4',
+421 silly addNameRange     '0.1.5',
+421 silly addNameRange     '0.1.6',
+421 silly addNameRange     '0.1.7',
+421 silly addNameRange     '0.1.8',
+421 silly addNameRange     '0.1.9',
+421 silly addNameRange     '0.0.3',
+421 silly addNameRange     '0.2.0',
+421 silly addNameRange     '0.2.1',
+421 silly addNameRange     '0.2.2',
+421 silly addNameRange     '0.2.3',
+421 silly addNameRange     '0.2.4',
+421 silly addNameRange     '0.2.5',
+421 silly addNameRange     '0.2.6',
+421 silly addNameRange     '0.2.7',
+421 silly addNameRange     '0.2.8',
+421 silly addNameRange     '0.3.0',
+421 silly addNameRange     '0.3.1',
+421 silly addNameRange     '0.3.3',
+421 silly addNameRange     '0.3.4',
+421 silly addNameRange     '0.3.5',
+421 silly addNameRange     '0.3.6',
+421 silly addNameRange     '0.3.7',
+421 silly addNameRange     '0.4.0',
+421 silly addNameRange     '0.5.0',
+421 silly addNameRange     '0.5.1',
+421 silly addNameRange     '0.5.2',
+421 silly addNameRange     '0.6.0',
+421 silly addNameRange     '0.6.1' ] ]
+422 silly addNamed optimist@0.6.1
+423 verbose addNamed "0.6.1" is a plain semver version for optimist
+424 silly cache afterAdd optimist@0.6.1
+425 verbose afterAdd /home/esdras/.npm/optimist/0.6.1/package/package.json not in flight; writing
+426 verbose afterAdd /home/esdras/.npm/optimist/0.6.1/package/package.json written
+427 http fetch 200 https://registry.npmjs.org/async/-/async-1.4.2.tgz
+428 silly fetchAndShaCheck shasum 6c9edcb11ced4f0dd2f2d40db0d49a109c088aab
+429 verbose addTmpTarball /tmp/npm-4914-facd34b9/registry.npmjs.org/async/-/async-1.4.2.tgz not in flight; adding
+430 verbose addTmpTarball already have metadata; skipping unpack for async@1.4.2
+431 http fetch 200 https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz
+432 silly fetchAndShaCheck shasum eba4f5da9c0dc999de68032d8b4f76173652036b
+433 verbose addTmpTarball /tmp/npm-4914-facd34b9/registry.npmjs.org/source-map/-/source-map-0.4.4.tgz not in flight; adding
+434 verbose addTmpTarball already have metadata; skipping unpack for source-map@0.4.4
+435 silly cache afterAdd source-map@0.4.4
+436 verbose afterAdd /home/esdras/.npm/source-map/0.4.4/package/package.json not in flight; writing
+437 verbose afterAdd /home/esdras/.npm/source-map/0.4.4/package/package.json written
+438 http fetch 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz
+439 silly fetchAndShaCheck shasum fad5755c1e1577658bb06ff9ab6e548c95bebd6e
+440 verbose addTmpTarball /tmp/npm-4914-facd34b9/registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz not in flight; adding
+441 verbose addTmpTarball already have metadata; skipping unpack for uglify-js@2.4.24
+442 silly cache afterAdd uglify-js@2.4.24
+443 verbose afterAdd /home/esdras/.npm/uglify-js/2.4.24/package/package.json not in flight; writing
+444 verbose afterAdd /home/esdras/.npm/uglify-js/2.4.24/package/package.json written
+445 verbose about to build /home/esdras/projetos_node/learn-node/node_modules/handlebars
+446 verbose unlock done using /home/esdras/.npm/_locks/handlebars-5d771463333a1fbc.lock for /home/esdras/projetos_node/learn-node/node_modules/handlebars
+447 verbose stack Error: EACCES: permission denied, mkdir '/home/esdras/.npm/async/1.4.2'
+447 verbose stack     at Error (native)
+448 verbose cwd /home/esdras/projetos_node/learn-node/templates
+449 error Linux 3.13.0-43-generic
+450 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "handlebars"
+451 error node v4.0.0
+452 error npm  v2.14.2
+453 error path /home/esdras/.npm/async/1.4.2
+454 error code EACCES
+455 error errno -13
+456 error syscall mkdir
+457 error Error: EACCES: permission denied, mkdir '/home/esdras/.npm/async/1.4.2'
+457 error     at Error (native)
+457 error  { [Error: EACCES: permission denied, mkdir '/home/esdras/.npm/async/1.4.2']
+457 error   errno: -13,
+457 error   code: 'EACCES',
+457 error   syscall: 'mkdir',
+457 error   path: '/home/esdras/.npm/async/1.4.2',
+457 error   parent: 'handlebars' }
+458 error Please try running this command again as root/Administrator.
+459 verbose exit [ -13, true ]
+460 verbose unbuild node_modules/handlebars
+461 info preuninstall handlebars@4.0.2
+462 info uninstall handlebars@4.0.2
+463 verbose unbuild rmStuff handlebars@4.0.2 from /home/esdras/projetos_node/learn-node/node_modules
+464 silly gentlyRm /home/esdras/projetos_node/learn-node/node_modules/.bin/handlebars is being gently removed
+465 silly gentlyRm verifying /home/esdras/projetos_node/learn-node is an npm working directory
+466 silly gentlyRm containing path /home/esdras/projetos_node/learn-node is under npm's control, in /home/esdras/projetos_node/learn-node
+467 silly gentlyRm deletion target /home/esdras/projetos_node/learn-node/node_modules/.bin/handlebars is under /home/esdras/projetos_node/learn-node
+468 verbose gentlyRm vacuuming from /home/esdras/projetos_node/learn-node/node_modules/.bin/handlebars up to /home/esdras/projetos_node/learn-node
+469 info postuninstall handlebars@4.0.2
+470 silly gentlyRm /home/esdras/projetos_node/learn-node/node_modules/handlebars is being purged from base /home/esdras/projetos_node/learn-node
+471 verbose gentlyRm don't care about contents; nuking /home/esdras/projetos_node/learn-node/node_modules/handlebars
+472 silly vacuum-fs purging /home/esdras/projetos_node/learn-node/node_modules/handlebars
+473 silly vacuum-fs quitting because other entries in /home/esdras/projetos_node/learn-node/node_modules
